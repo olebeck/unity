@@ -1,0 +1,4 @@
+run:
+wget -m -nH -c -e robots=off $(curl https://unity.069420.xyz/ids.txt | awk '{ print "https://download-cdn.unity3d.com/download_unity/" $0 "/download.html"}')
+
+make sure you have enough storage
