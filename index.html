@@ -37,11 +37,19 @@
             padding: 0 15px 5px 15px;
             vertical-align: top;
         }
-        thead tr { border-color: #ececec; border-bottom: #f5f8f9 2px solid; }
+        thead tr {
+            border-color: #ececec;
+            border-bottom: #f5f8f9 2px solid;
+        }
         
         /* table body */
-        tbody tr { border-bottom: #f5f8f9 1px solid; }
+        tbody tr {
+            border-bottom: #f5f8f9 1px solid;
+            transition: background-color .1s;
+        }
+        tbody tr:hover { background-color: hsl(0deg 0% 91%); }
 
+        /* table elements */
         td { padding: 15px; font-size: 0.9375em; }
         td:first-child { width: 30vw; font-weight: 400; }
         td a { display: inline-block; }
@@ -52,8 +60,11 @@
                 background-color: #121212;
                 color: #ababab;
             }
-            table tbody tr { border-color: #292929; }
-            table thead tr { border-bottom: #1f2122 2px solid; }
+            tbody tr { border-color: #292929; }
+            tbody tr:hover { background-color: hsl(0deg 0% 9%); }
+
+            thead tr { border-bottom: #1f2122 2px solid; }
+
             a:visited { color: #ffb8ff; }
             a { color: #e5a1ff; }
         }
@@ -279,7 +290,7 @@
     <a title="Xbox-One" href="https://beta.unity3d.com/download/2692111643/UnitySetup-Xbox-One-Support-for-Editor-2020.3.8f1.exe">
     <img height="24" width="24" alt="Xbox-One" src="static/Xbox-One.svg">
     </a>
-    <a title="Nintendo-Switch" href="https://beta.unity3d.com/download/0579727653/UnitySetup-Nintendo-Switch-Support-for-Editor-2020.3.8f1.exe">
+    <a title="Nintendo-Switch" href="http://beta.unity3d.com/download/7585996434/UnitySetup-Nintendo-Switch-Support-for-Editor-2020.3.8f1.exe">
     <img height="24" width="24" alt="Nintendo-Switch" src="static/Switch.svg">
     </a>
     <a title="Xbox-Series" href="https://beta.unity3d.com/download/6418843976/UnitySetup-Game-Core-Xbox-One-Support-for-Editor-2020.3.8f1.exe">
@@ -311,7 +322,7 @@
     <a title="Xbox-Series" href="http://beta.unity3d.com/download/1073055016/download.html">
     <img height="24" width="24" alt="Xbox-Series" src="static/Xbox-Series.svg">
     </a>
-    <a title="pc" href="http://beta.unity3d.com/download/4a305a831a51/download.html">
+    <a title="pc" href="http://beta.unity3d.com/download/dd97f2c94397/download.html">
     <img height="24" width="24" alt="pc" src="static/Unity.svg">
     </a>
     <a title="Stadia" href="http://beta.unity3d.com/download/0967902811/UnitySetup-Stadia-Support-for-Editor-2020.3.7f1.exe">
